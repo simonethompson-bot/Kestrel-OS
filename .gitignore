@@ -1,0 +1,15 @@
+# Plaintext source for the Kestrel OS architecture page.
+# Never commit — the deployed index.html is StatiCrypt-encrypted, so
+# committing the source would defeat the passphrase gate.
+# Edit this file locally, then re-encrypt with:
+#   npx staticrypt index.src.html -p <passphrase> -d /tmp/out --short \
+#     --template-color-primary '#BD4257' --template-color-secondary '#163C4D' \
+#     --template-instructions 'Enter the passphrase to view the Kestrel OS architecture documentation.'
+#   cp /tmp/out/index.src.html index.html
+index.src.html
+
+# staticrypt output directory
+encrypted/
+
+# macOS
+.DS_Store
